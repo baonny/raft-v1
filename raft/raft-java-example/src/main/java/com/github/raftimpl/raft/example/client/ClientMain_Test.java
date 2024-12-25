@@ -10,7 +10,7 @@ public class ClientMain_Test {
     public static void main(String[] args) {
 
 //        String ipPorts = "list://192.168.91.134:8051,192.168.91.134:8052,192.168.91.134:8053";
-        String ipport = "list://192.168.91.134:8053";
+        String ipport = "list://192.168.74.128:8051";
         String key = "username123";
         String value =null;
 

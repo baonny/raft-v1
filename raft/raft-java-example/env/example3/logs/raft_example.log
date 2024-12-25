@@ -1,0 +1,49 @@
+2024-12-25 14:28:29,646 INFO [main]	register protocol:1 success
+2024-12-25 14:28:29,700 INFO [main]	register protocol:29 success
+2024-12-25 14:28:29,703 INFO [main]	register protocol:4 success
+2024-12-25 14:28:29,706 INFO [main]	register protocol:3 success
+2024-12-25 14:28:29,707 INFO [main]	register protocol:31 success
+2024-12-25 14:28:29,707 INFO [main]	register protocol:28 success
+2024-12-25 14:28:29,708 INFO [main]	register protocol:32 success
+2024-12-25 14:28:29,710 INFO [main]	register protocol:33 success
+2024-12-25 14:28:29,710 INFO [main]	register protocol:30 success
+2024-12-25 14:28:29,711 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-12-25 14:28:29,712 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-12-25 14:28:29,712 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-12-25 14:28:29,713 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-12-25 14:28:29,718 INFO [main]	create thread:server-work-thread-1
+2024-12-25 14:28:29,719 INFO [main]	create thread:server-work-thread-2
+2024-12-25 14:28:29,719 INFO [main]	create thread:server-work-thread-3
+2024-12-25 14:28:29,720 INFO [main]	create thread:server-work-thread-4
+2024-12-25 14:28:29,720 INFO [main]	create thread:server-work-thread-5
+2024-12-25 14:28:29,720 INFO [main]	create thread:server-work-thread-6
+2024-12-25 14:28:29,720 INFO [main]	create thread:server-work-thread-7
+2024-12-25 14:28:29,721 INFO [main]	create thread:server-work-thread-8
+2024-12-25 14:28:29,721 INFO [main]	create thread:server-work-thread-9
+2024-12-25 14:28:29,721 INFO [main]	create thread:server-work-thread-10
+2024-12-25 14:28:29,722 INFO [main]	create thread:server-work-thread-11
+2024-12-25 14:28:29,722 INFO [main]	create thread:server-work-thread-12
+2024-12-25 14:28:29,722 INFO [main]	create thread:server-work-thread-13
+2024-12-25 14:28:29,722 INFO [main]	create thread:server-work-thread-14
+2024-12-25 14:28:29,723 INFO [main]	create thread:server-work-thread-15
+2024-12-25 14:28:29,723 INFO [main]	create thread:server-work-thread-16
+2024-12-25 14:28:29,723 INFO [main]	create thread:server-work-thread-17
+2024-12-25 14:28:29,723 INFO [main]	create thread:server-work-thread-18
+2024-12-25 14:28:29,724 INFO [main]	create thread:server-work-thread-19
+2024-12-25 14:28:29,724 INFO [main]	create thread:server-work-thread-20
+2024-12-25 14:28:29,751 INFO [main]	use jdk nio event mode
+2024-12-25 14:28:29,769 INFO [main]	create thread:timeout-timer-thread-1
+2024-12-25 14:28:29,776 WARN [main]	meta file not exist, name=./data/log/metadata
+2024-12-25 14:28:29,778 WARN [main]	meta file not exist, name=./data/snapshot/metadata
+2024-12-25 14:28:29,910 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=appendEntries
+2024-12-25 14:28:29,913 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=preVote
+2024-12-25 14:28:29,913 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=requestVote
+2024-12-25 14:28:29,914 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=installSnapshot
+2024-12-25 14:28:29,915 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftConsensusService, methodName=getLeaderCommitIndex
+2024-12-25 14:28:29,924 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftClientService, methodName=getConfiguration
+2024-12-25 14:28:29,926 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftClientService, methodName=getLeader
+2024-12-25 14:28:29,927 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftClientService, methodName=removePeers
+2024-12-25 14:28:29,929 INFO [main]	register service, serviceName=com.github.raftimpl.raft.service.RaftClientService, methodName=addPeers
+2024-12-25 14:28:29,933 INFO [main]	register service, serviceName=com.github.raftimpl.raft.example.server.service.ExampleService, methodName=get
+2024-12-25 14:28:29,934 INFO [main]	register service, serviceName=com.github.raftimpl.raft.example.server.service.ExampleService, methodName=set
+2024-12-25 14:28:29,962 INFO [main]	create thread:server-acceptor-thread-1
